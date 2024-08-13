@@ -90,7 +90,7 @@ class SignInScreen extends StatelessWidget {
                     padding: const EdgeInsets.symmetric(vertical: 16.0),
                     alignment: Alignment.center,
                     decoration: BoxDecoration(
-                      color: const Color.fromARGB(255, 102, 51, 204),
+                      color: const Color.fromARGB(255, 101, 51, 204),
                       borderRadius: BorderRadius.circular(8.0),
                     ),
                     child: const Text(
