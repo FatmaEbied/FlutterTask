@@ -18,7 +18,7 @@ class SettingScreen extends StatelessWidget {
           title: const Text(
             'Settings',
             style: TextStyle(
-              color: Color.fromARGB(255, 0, 0, 0),
+              color: Color.fromARGB(254, 0, 0, 0),
             ),
           ),
           centerTitle: true,
