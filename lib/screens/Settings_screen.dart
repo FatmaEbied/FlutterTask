@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 //   runApp(MyApp());
 // }
 
-class Settings_screen extends StatelessWidget {
+class SettingScreen extends StatelessWidget {
   // Create a ValueNotifier to hold the switch state
   final ValueNotifier<bool> isSwitched = ValueNotifier<bool>(false);
 
@@ -13,9 +13,9 @@ class Settings_screen extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          backgroundColor: Color.fromARGB(255, 255, 255, 255),
-          leading: Icon(Icons.arrow_back, color: Color.fromARGB(255, 0, 0, 0)),
-          title: Text(
+          backgroundColor: const Color.fromARGB(255, 255, 255, 255),
+          leading: const Icon(Icons.arrow_back, color: Color.fromARGB(255, 0, 0, 0)),
+          title: const Text(
             'Settings',
             style: TextStyle(
               color: Color.fromARGB(255, 0, 0, 0),
